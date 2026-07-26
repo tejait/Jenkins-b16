@@ -10,4 +10,8 @@ public class JenkinsController {
     public String getName(){
         return "Your Java Stop!";
     }
+    @GetMapping("hello")
+    public String hello(){
+        return "hello Teja IT";
+    }
 }
