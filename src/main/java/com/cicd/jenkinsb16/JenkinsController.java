@@ -14,4 +14,8 @@ public class JenkinsController {
     public String hello(){
         return "hello Teja IT";
     }
+    @GetMapping("docker")
+    public String docketImage(){
+        return "docker image";
+    }
 }
